@@ -8,6 +8,7 @@ const front = document.getElementById("front");
 const back = document.getElementById("back");
 
 function getLucky() {
+    checkBtn.style.bottom = "19.6rem"
     console.log(birthDate.value);
     console.log(luckyNum.value);
 
@@ -42,6 +43,8 @@ function luckyBoi() {
     coverLine.innerText = "Congrats! U are born Lucky"
     resetBtn.style.visibility = "visible"
     checkBtn.setAttribute("disabled", "")
+    checkBtn.removeAttribute("id")
+    checkBtn.setAttribute("id", "no-hover")
     
 }
 function unluckyBoi() {
@@ -50,6 +53,8 @@ function unluckyBoi() {
     coverLine.innerText = "Don't worry luck is not everything"
     resetBtn.style.visibility = "visible"
     checkBtn.setAttribute("disabled","")
+    checkBtn.removeAttribute("id")
+    checkBtn.setAttribute("id", "no-hover")
 }
 
 function reset() {
@@ -60,4 +65,7 @@ function reset() {
     coverLine.innerText = "Check whether ur birth date favours ur luck or not?"
     resetBtn.style.visibility = "hidden"
     checkBtn.removeAttribute("disabled")
+    checkBtn.style.bottom = "20rem"
+    checkBtn.removeAttribute("id")
+    checkBtn.setAttribute("id", "btn")
 }

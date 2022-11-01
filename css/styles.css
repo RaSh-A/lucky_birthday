@@ -111,6 +111,15 @@ button {
     color: #B03850;
     transition: 0.3s;
 }
+#no-hover {
+    z-index: 1;
+    position: relative;
+    bottom: 20rem;
+    left: 11.3rem;
+    background-color: #e4dfe0;
+    color: #272525;
+    transition: 0.3s;
+}
 
 #btn:hover {
     background-color: #d74562;
