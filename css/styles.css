@@ -1,0 +1,139 @@
+body {
+    text-align: center;
+    background-image: url("../bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Great Vibes';
+
+}
+
+#bg-img {
+    font-family: 'Lobster';
+}
+
+#front {
+    z-index: 1;
+    position: relative;
+    top: 2px;
+    font-size: 9rem;
+    color: #FAC94A;
+}
+
+#back {
+    z-index: 0;
+    position: relative;
+    left: .25rem;
+    bottom: 16.75rem;
+    font-size: 9rem;
+    color: #F16C81;
+}
+
+#cover-line {
+    z-index: 0;
+    color: #864DC2;
+    position: relative;
+    bottom: 22rem;
+    font-size: 2.25rem;
+}
+
+h3 {
+    z-index: 0;
+    font-size: 2rem;
+    display: flexbox;
+    color: #E85475;
+    margin: 0
+}
+
+#bd-txt {
+    position: relative;
+    bottom: 18.7rem;
+    right: 16.5rem;
+}
+
+#ln-txt {
+    position: relative;
+    bottom: 20.7rem;
+    left: 16.5rem;
+}
+
+input {
+    margin: 0 auto;
+    padding-right: .5rem;
+    width: 19.5rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: #DEFFF6;
+    border: 0.15rem solid #10A28A;
+    color: #10A28A;
+    text-align: center;
+    font-family: 'Great Vibes';
+    font-size: 1.5rem;
+    display: flex;
+    color-scheme: #10A28A;
+}
+
+input::placeholder {
+    color: #10A28A;
+}
+
+#birth-date {
+    z-index: 0;
+    position: relative;
+    bottom: 21rem;
+    right: 16rem;
+}
+
+#lucky-num {
+    z-index: 0;
+    position: relative;
+    bottom: 24rem;
+    left: 16rem;
+    cursor: text;
+}
+
+button {
+    width: 11rem;
+    height: 3rem;
+    display: flexbox;
+    font-family: 'Lobster';
+    font-size: 2rem;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+#btn {
+    z-index: 1;
+    position: relative;
+    bottom: 20rem;
+    left: 11.3rem;
+    background-color: #F88099;
+    color: #B03850;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    background-color: #d74562;
+    color: #ffe2e8;
+}
+
+#btn-back {
+    z-index: 0;
+    position: relative;
+    bottom: 18.9rem;
+    background-color: #FAC94A;
+
+}
+
+#reset {
+    z-index: 0;
+    position: relative;
+    visibility: hidden;
+    background-color: #864DC2;
+    bottom: 19.8rem;
+    left: .5rem;
+}
+#reset:hover{
+    background-color: #3b0f6b;
+    color: #efdfff;
+}
